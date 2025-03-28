@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter - Scrolly Telling</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <!-- Background Musik -->
+    <audio id="bg-music" autoplay loop>
+      <source src="assets/sounds/battle-theme.mp3" type="audio/mp3" />
+      Browser Anda tidak mendukung audio.
+    </audio>
+
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <img src="assets/images/hogwarts.png" alt="hogwarts logo" class="hogwarts-logo" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#intro">Beranda</a></li>
+          <li><a href="#hogwarts">Hogwarts</a></li>
+          <li><a href="#quidditch">Quidditch</a></li>
+          <li><a href="#battle">Pertarungan</a></li>
+        </ul>
+      </div>
+      <div class="tombol-menu">
+        <div class="garis"></div>
+        <div class="garis"></div>
+        <div class="garis"></div>
+      </div>
+    </nav>
+
+    <!-- Intro -->
+    <section id="intro" class="full-screen">
+      <video id="bg-video" autoplay loop playsinline>
+        <source src="assets/videos/SnapTik_App_7479429405853404422-HD.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay"></div>
+      <div class="intro-text">
+        <h1 class="magic-text">Selamat Datang di Dunia Sihir</h1>
+        <p class="magic-subtext">Ikuti perjalanan Harry Potter dalam dunia penuh keajaiban</p>
+      </div>
+    </section>
+
+    <!-- Hogwarts -->
+    <section id="hogwarts">
+      <div class="content">
+        <h2 class="magic-text">Hogwarts</h2>
+        <p class="magic-subtext" id="hogwarts-story">
+          Hogwarts adalah sekolah sihir paling terkenal di dunia. Di sinilah Harry Potter dan teman-temannya belajar sihir, menghadapi petualangan berbahaya, dan menemukan persahabatan sejati. 
+          <br><br>
+          "Saat memasuki Aula Besar, ribuan lilin melayang di udara, menerangi ruangan megah. Empat meja panjang dipenuhi siswa dari empat asrama—Gryffindor, Hufflepuff, Ravenclaw, dan Slytherin. Di depan, topi seleksi menunggu untuk menentukan nasib setiap penyihir muda."
+        </p>
+        <div class="houses">
+          <div class="house">
+              <img src="assets/images/gryfindor.png" alt="Gryffindor">
+          </div>
+          <div class="house">
+              <img src="assets/images/PngItem_1683695.png" alt="Slytherin">
+          </div>
+          <div class="house">
+              <img src="assets/images/ravenclaw.png" alt="Ravenclaw">
+          </div>
+          <div class="house">
+              <img src="assets/images/slytherin.png" alt="Hufflepuff">
+          </div>
+      </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Quidditch -->
+    <section id="quidditch" class="full-screen">
+      <video id="quidditch-video" autoplay loop playsinline >
+          <source src="assets/videos/0328(1).mp4" type="video/mp4">
+      </video>
+      <div class="overlay"></div>
+      <div class="intro-text">
+        <h1 class="magic-text">I'ts Quidditch Times!!</h1>
+        <berolahraga classs="magic-subtext">berolahraga dan berlomba di dunia sihir !!</p>
+      </div>
+    </section>
+
+    <!-- Pertarungan -->
+    <section id="battle" class="full-screen">
+      <video id="Battle-video" autoplay loop playsinline >
+        <source src="assets/videos/lastbattle.mp4" type="video/mp4">
+      </video>
+      <div class="overlay"><div>
+        <div class="intro-text">
+        <h1 class="magic-text">Last Battle of Hogwarts !!</h1>
+        <p class="magic-subtext">~ Harry vs Voldemort-One Shall Stand One Shall Fall ~</p>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+<script>
+</script>
+  </body>
+</html>
